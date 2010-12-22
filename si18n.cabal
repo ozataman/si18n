@@ -1,0 +1,40 @@
+Name:                si18n
+Version:             0.0.2
+Synopsis:            A simple i18n library for Haskell
+License:             BSD3
+License-file:        LICENSE
+Author:              Ozgun Ataman
+Maintainer:          ozataman@gmail.com
+Category:            Data
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+
+Library
+  Exposed-modules:
+      Text.Si18n
+    , Text.Si18n.ByteString
+    , Text.Si18n.Loader
+    , Text.Si18n.Types
+  
+  -- Packages needed in order to build this package.
+  Build-depends:       
+      base >= 4 && < 5
+    , bytestring >= 0.9
+    , containers
+    , csv-iteratee >= 0.6
+    , safe
+    , text >= 0.11
+
+  Extensions:
+      OverloadedStrings
+
+  hs-source-dirs: src, test
+  
+  -- Modules not exported by this package.
+  -- Other-modules:       
+  
+  -- Extra tools (e.g. alex, hsc2hs, ...) needed to build the source.
+  -- Build-tools:         
+  
+

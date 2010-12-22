@@ -1,0 +1,6 @@
+:set -XOverloadedStrings
+:set -XTemplateHaskell
+:set -Wall
+:set -isrc
+:set -itest
+

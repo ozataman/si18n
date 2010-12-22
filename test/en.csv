@@ -1,0 +1,4 @@
+Key,Value,Locale
+k1,This is a test key,en
+k2,This is the second test key,en
+k3,Key with {{name}} some embedded tokens {{lastname}},en
