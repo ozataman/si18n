@@ -12,7 +12,7 @@ import qualified Data.Text as T
 import           Data.Text (Text)
 import qualified Data.Text.Encoding as E
 
-import           Data.CSV.Iteratee
+import           Data.CSV.Enumerator
 
 import           Text.Si18n.Types
 

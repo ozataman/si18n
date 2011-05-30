@@ -22,7 +22,7 @@ Library
       base >= 4 && < 5
     , bytestring >= 0.9
     , containers
-    , csv-iteratee >= 0.6
+    , csv-enumerator
     , safe
     , text >= 0.11
 
